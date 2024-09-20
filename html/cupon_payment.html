@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Payment Gaitway</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<header>
+		<h1 class="text-center text-5xl mt-5 font-semibold text-violet-600">Payment Mathod</h1>
+	</header>
+
+	<main>
+		<section class="mt-12 w-9/12 m-auto p-8 bg-blue-100">
+			<h3 class="text-2xl font-semibold">Please complete your payment</h3>
+			<div>
+				<h2 class="mt-2"> <span class="font-bold">Price</span> : <span id="price_amount">1250</span> </h2>
+				<strong>Apply the cupon to get <span id="discount_id" class="text-red-500 text-xl">30</span>% discount...</strong>
+				<input class="mt-3" type="text" id="input_id" placeholder="Please apply your cupon">
+				<button id="apply_btn" class="bg-green-900 px-5 rounded-sm text-white font-semibold opacity-50" disabled>Apply</button>
+				<h2 class="font-bold mt-3">Please pay : <span id="payment_amount" class="text-red-500 text-2xl">1250</span></h2>
+				<button id="payment_btn" class="bg-green-900 px-8 text-white py-2 font-bold mt-3 rounded-lg hover:bg-sky-700">Payment</button>
+			</div>
+		</section>
+	</main>
+
+	<script src="/js/cupon_payment.js"></script>
+</body>
+</html>

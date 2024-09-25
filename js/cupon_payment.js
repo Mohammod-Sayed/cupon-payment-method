@@ -28,7 +28,3 @@ document.getElementById('input_id').addEventListener('keyup', ()=>{
         applyButton.style.opacity = 0.5
     }
 })
-
-
-
-
